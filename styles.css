@@ -115,6 +115,11 @@ a {
   border-width: 4px;
   border-style: solid;
 }
+
+.card-text {
+  text-align: center;
+}
+
 .footer {
   margin-top: auto;
   color: #f9faf8;
