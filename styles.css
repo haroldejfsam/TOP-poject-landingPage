@@ -1,0 +1,152 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    
+}
+
+.nav {
+    margin-left: auto;
+    padding-right: 20px;
+    gap: 10px;
+}
+.hero-button {
+    background-color: #3882f6;
+}
+
+.card-img {
+    width: 200px;
+    height: 200px;
+}
+
+.hero-image {
+    width: 600px;
+    height: 300px;
+    flex:0 0 600px;
+}
+
+.top, .header, .hero-container, .hero-section,.footer {
+    background-color: #1f2937;
+}
+
+ul {
+    background-color: #1f2937;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+   
+    
+   
+    
+}
+
+.header {
+    
+    font-weight: 24px;
+    color: #F9FAF8;
+    padding-left: 100px;
+    
+    
+    
+
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    padding: 100px 200px 100px 200px;
+    margin-left: -200px;
+    
+    
+    
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    
+}
+
+.hero-container {
+    padding-right: 100px;
+    flex: 0 0 480px;
+    
+}
+
+.hero-paragraph {
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+.header-middle {
+    display: flex;
+    justify-content: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.middle-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+.middle-card {
+    width: 200px;
+}
+
+.card-img {
+    border: #3882f6;
+    border-radius: 5%;
+    border-width: 4px;
+    border-style: solid;
+}
+.footer {
+    margin-top: auto;
+    color: #F9FAF8;
+}
+
+.quote-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 100px 200px 100px 200px;
+
+    
+}
+
+.quote-text {
+    width:770px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    
+}
+
+.quote-author {
+    padding-left: 500px;
+    font-size: 25px;
+}
